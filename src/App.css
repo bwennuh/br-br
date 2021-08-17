@@ -14,11 +14,58 @@
   color: white;
 } */
 
-.br2, .br-br, .about {
+.body {
+  display: flex;
+  flex-direction: column;
+}
+
+.navbar {
+  flex-shrink: 0;
+  padding: 20px 20px 20px 0px;
+}
+
+.navbar a {
+  text-decoration: none;
+}
+
+
+.footer {
+  flex-shrink: 0;
+  padding: 20px 20px 20px 0px;
+}
+
+.br2, .br-br {
   font-family: 'Source Code Pro', monospace;
   font-size: 36pt;
 }
 
-.about {
+.bio, .about, .projects, .blog, .mckinley, .contact {
+  font-family: 'Source Code Pro', monospace;
   font-size: 16pt;
+  width: 750px;
 }
+
+.navbar-button, .footer-button, .about-button {
+  font-family: 'Source Code Pro', monospace;
+  border: none;
+  background-color: rgb(245, 235, 205);
+  margin: 5px;
+  padding: 5px 10px;
+  width: auto;
+  height: 30px;
+}
+
+.footer-button {
+  background-color: rgb(245, 205, 205);
+}
+
+.navbar-button:hover, .footer-button:hover, .about-button:hover {
+  cursor: pointer;
+  background-color: rgb(245, 205, 205);
+  transition: 0.75s;
+}
+
+.footer-button:hover {
+  background-color: rgb(245, 235, 205);
+}
+
