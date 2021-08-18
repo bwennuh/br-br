@@ -24,10 +24,9 @@
   padding: 20px 20px 20px 0px;
 }
 
-.navbar a {
+.navbar a, .footer a, .about a {
   text-decoration: none;
 }
-
 
 .footer {
   flex-shrink: 0;
@@ -56,6 +55,10 @@
   height: 30px;
 }
 
+.about-button {
+  font-size: 12pt;
+}
+
 .footer-button {
   background-color: rgb(245, 205, 205);
 }
@@ -66,7 +69,7 @@
   transition: 0.75s;
 }
 
-.navbar-button.active {
+.navbar-button.active, .about-button.active {
   background-color: rgb(245, 205, 205);
 }
 

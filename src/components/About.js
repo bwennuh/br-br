@@ -12,12 +12,20 @@ class About extends Component {
         </Route>
         <br/>
 
-        <NavLink exact to='/about/professional' activeClassName="about-selected">
+        {/* <NavLink exact to='/about/professional' activeClassName="about-selected">
           <button className="about-button">Professional Side</button>
         </NavLink>
 
         <NavLink exact to='/about/fun' activeClassName="about-selected">
           <button className="about-button">Fun Side</button>
+        </NavLink> */}
+
+        <NavLink exact to='/about/professional' className="about-button" activeClassName="active">
+          Professional Side
+        </NavLink>
+
+        <NavLink exact to='/about/fun' className="about-button" activeClassName="active">
+          Fun Side
         </NavLink>
 
 
