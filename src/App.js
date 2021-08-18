@@ -18,7 +18,7 @@ function App() {
 
 
       {/* <Router> */}
-        <Home />
+      <Home />
       {/* </Router> */}
 
       <Footer />
