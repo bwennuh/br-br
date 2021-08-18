@@ -1,38 +1,35 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom'
+import { Link, NavLink } from 'react-router-dom'
 
 class Navbar extends Component {
   render(){
     return(
-      <div className="navbar">
-        <Link to='/'>
-          <p className="br2">{`<br>`}<sup>2</sup></p>
-          {/* <button className="navbar-button">Home</button> */}
-        </Link>
+      <nav className="navbar" aria-label="Main">
+        <NavLink to='/' className="navbar-logo" aria-label="Brenna Bruening Portfolio Home">
+          <span className="br2">{`<br>`}<sup>2</sup></span>
+        </NavLink>
 
+        <NavLink to='/about' className="navbar-button" activeClassName="active">
+          About
+        </NavLink>
 
-        <Link to='/about'>
-          <button className="navbar-button">About</button>
-        </Link>
+        <NavLink to='/projects' className="navbar-button" activeClassName="active">
+          Projects
+        </NavLink>
 
-        <Link to='/projects'>
-          <button className="navbar-button">Projects</button>
-        </Link>
+        <NavLink to='/blog' className="navbar-button" activeClassName="active" aria-label="Diatomic Bromine Blog">
+          Diatomic Bromine [Br<sub>2</sub>]
+        </NavLink>
 
-        <Link to='/blog'>
-          <button className="navbar-button">Diatomic Bromine [Br<sub>2</sub>]</button>
-        </Link>
+        <NavLink to='/pup-page' className="navbar-button" activeClassName="active">
+          McKinley Corner
+        </NavLink>
 
-        <Link to='/pup-page'>
-          <button className="navbar-button">McKinley Corner</button>
-        </Link>
+        <NavLink to='/contact' className="navbar-button" activeClassName="active">
+          Contact
+        </NavLink>
 
-        {/* <button className="navbar-button">Camooflage</button> */}
-        <Link to='/contact'>
-          <button className="navbar-button">Contact</button>
-        </Link>
-
-      </div>
+      </nav>
     )
   }
 }

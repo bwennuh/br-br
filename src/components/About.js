@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Route, Link } from 'react-router-dom'
+import { Route, Link, NavLink } from 'react-router-dom'
 
 class About extends Component {
 
@@ -7,18 +7,27 @@ class About extends Component {
     return(
       <div className="about">
 
-        <Link to='/about/professional'>
+        <Route path='/about'>
+          Choose a side ~
+        </Route>
+        <br/>
+
+        <NavLink exact to='/about/professional' activeClassName="about-selected">
           <button className="about-button">Professional Side</button>
-        </Link>
+        </NavLink>
 
-        <Link to='/about/fun'>
+        <NavLink exact to='/about/fun' activeClassName="about-selected">
           <button className="about-button">Fun Side</button>
-        </Link>
+        </NavLink>
 
 
-        <h2>{`<a>`}bout me</h2>
+        {/* <h2>{`<a>`}bout me</h2> */}
 
-          <Route path={['/about', '/about/professional']}>
+          {/* <Route exact path={['/about', '/about/professional']}> */}
+
+          <Route exact path='/about/professional'>
+            <h2>{`<a>`}bout me</h2>
+
             <p>Like I mentioned before, I am a short, blonde vegan who loves ice cream and Lightning McQueen.</p>
 
             <p>I live in DC with my husband, Greg, and our crazy but cute staffie, McKinley. Highly recommend checking out my <a href="https://www.instagram.com/bwennuh/">Instagram</a> if you want puppy pics :)</p>
@@ -44,7 +53,9 @@ class About extends Component {
             <p>So, I decided it was time to start trying something new! Something that'll give me more freedom for creatitivy, and something that'll help me be passionate about what I do again :)</p>
           </Route>
 
-          <Route path='/about/fun'>
+          <Route exact path='/about/fun'>
+            <h2>{`<a>`}bout me</h2>
+            
             <p>Fun Side Info goes ~ here ~</p>
           </Route>
 
