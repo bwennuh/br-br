@@ -24,9 +24,17 @@ class Home extends Component {
 
               <p>I am a short, blonde vegan who lives for ice cream 🍦 and Lightning McQueen ⚡</p>
 
-              <p>When I’m not rewatching the Cars movie for the umpteenth time, I am a Software Engineer who strives to bring creativity into anything and everything I do.</p>
+              <p>Welcome to my portfolio ~</p>
 
-              <p>I started out in Mechanical Engineering with the intent to design roller coasters 🎢, but my motion sickness had other plans. Ultimately, I made the switch to Software Engineering to continue to help fuel my passions for innovative design, figuring out how things work and finding efficient solutions for everyday problems.</p>
+              <p>Many emojis, gifs, and Cars references ahead - you've been warned 🤓</p>
+
+              <img src="https://24.media.tumblr.com/tumblr_lqefsb5fWu1qm6oc3o1_500.gif"></img>
+
+              <p>Enjoy!</p>
+
+              {/* <p>When I’m not rewatching the Cars movie for the umpteenth time, I am a Software Engineer who strives to bring creativity into anything and everything I do.</p>
+
+              <p>I started out in Mechanical Engineering with the intent to design roller coasters 🎢, but my motion sickness had other plans. Ultimately, I made the switch to Software Engineering to continue to help fuel my passions for innovative design, figuring out how things work and finding efficient solutions for everyday problems.</p> */}
             </div>
           </Route>
 
