@@ -26,6 +26,8 @@ class About extends Component {
           <Route exact path='/about/professional'>
             <h2 aria-label="About me">{`<a>`}bout me</h2>
 
+            <img src="https://i.imgur.com/rctmEtP.jpg" alt="Brenna smiling outside in a green jacket" className="brenna-pics lightning"/>
+
             <p>TL;DR When I’m not rewatching the Cars movie for the umpteenth time, I am a Software Engineer who strives to bring creativity into anything and everything I do.</p>
 
             <p>I started out in Mechanical Engineering with the intent to design roller coasters 🎢, but my motion sickness had other plans. Ultimately, I made the switch to Software Engineering to continue to help fuel my passions for innovative design, figuring out how things work and finding efficient solutions for everyday problems.</p>
