@@ -6,7 +6,7 @@ class Contact extends Component {
   render(){
     return(
       <div className="contact">
-        <h2>contact {`<details>`}</h2>
+        <h2 aria-label="Contact details">contact {`<details>`}</h2>
 
         <p>Contact info stuff goes ~ here ~</p>
 

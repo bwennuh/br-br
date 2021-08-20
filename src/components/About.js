@@ -8,7 +8,7 @@ class About extends Component {
       <div className="about">
 
         <Route path='/about'>
-          <h2>choose {`<a>`} side ~</h2>
+          <h2 aria-label="Choose a side (button)">choose {`<a>`} side ~</h2>
         </Route>
 
         <NavLink exact to='/about/professional' className="about-button" activeClassName="active">
@@ -18,10 +18,6 @@ class About extends Component {
         <NavLink exact to='/about/fun' className="about-button" activeClassName="active">
           Fun Side
         </NavLink>
-
-          {/* <h2>{`<a>`}bout me</h2> */}
-
-          {/* <Route exact path={['/about', '/about/professional']}> */}
 
           <Route exact path='/about/professional'>
             <h2 aria-label="About me">{`<a>`}bout me</h2>
@@ -67,10 +63,8 @@ class About extends Component {
 
           <Route exact path='/about/fun'>
             <h2 aria-label="About me">{`<a>`}bout me</h2>
-            
-            {/* <p>Fun Side Info goes ~ here ~</p> */}
 
-            <p>Like I mentioned before, I am a short, blonde vegan lives for ice cream 🍦 and Lightning McQueen ⚡</p>
+            <p>Like I mentioned before, I am a short, blonde vegan who lives for ice cream 🍦 and Lightning McQueen ⚡</p>
 
             <p>I am big into running and spinning. If you need a running buddy, HMU (but we'll go at my pace because I am ✨ slow ✨). My goal is to usually end a run at a coffee shop because I <em>will run for iced coffee plzkthx</em>. Iced vanilla oat milk lattes are my favorite 🥤</p>
 

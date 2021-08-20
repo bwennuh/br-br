@@ -6,7 +6,7 @@ class Blog extends Component {
   render(){
     return(
       <div className="blog">
-        <h2>{`<br>`}<sub>2</sub></h2>
+        <h2 aria-label="Diatomic Bromine blog">{`<br>`}<sub>2</sub></h2>
 
         <p>Blog stuff goes ~ here ~</p>
 
