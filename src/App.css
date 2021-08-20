@@ -33,7 +33,16 @@ body {
   font-size: 36pt;
 }
 
-.bio, .about, .projects, .blog, .mckinley, .contact {
+.br-br {
+  text-align: center;
+}
+
+.bio, .mckinley {
+  font-family: 'Source Code Pro', monospace;
+  font-size: 16pt;
+}
+
+.about, .projects, .blog, .contact {
   font-family: 'Source Code Pro', monospace;
   font-size: 16pt;
   width: 750px;
@@ -87,3 +96,59 @@ body {
   margin-right: auto;
 }
 
+.brenna-pics, .cars-gifs, .mckinley-pics {
+  width: 500px;
+  height: auto;
+}
+
+.mckinley-pics {
+  margin: 25px;
+  border: black 15px solid;
+  border-radius: 50px;
+}
+
+#president-mckinley {
+  height: 500px;
+}
+
+.lightning {
+  /* B shape */
+  /* border: 0px;
+  border-radius: 0px 175px 175px 0px;
+  clip-path: polygon(0 0, 100% 0, 100% 38%, 85% 45%, 100% 52%, 100% 100%, 0 100%); */
+
+  /* Lightning bolt */
+  clip-path: polygon(20% 8%,92% 8%,69% 35%,98% 35%,0% 94%,23% 60%,0% 60%);
+}
+
+.rounded {
+  border-radius: 175px 0px 175px 0px;
+}
+
+.bio {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+}
+
+.bio-containers {
+  width: 750px;
+  display: flex;
+  flex-flow: column wrap;
+  align-content: center;
+}
+
+.bio-pic {
+  width: 590px;
+  margin-top: 30px;
+}
+
+.mckinley-pics-container {
+  margin: 0px auto;
+  width: 75vw;
+  height: auto;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: flex-start;
+  justify-content: center;
+}

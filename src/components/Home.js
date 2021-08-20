@@ -16,25 +16,30 @@ class Home extends Component {
         <Switch>
 
           <Route exact path='/'>
+
+            <h1 className="br-br">{`<br>enna <br>uening`}</h1>
             <div className="bio">
 
-              <h1 className="br-br">{`<br>enna <br>uening`}</h1>
-              {/* <h2>{`<a>`}bout me</h2> */}
-              <p>Hi! I'm Brenna :)</p>
+              <div className="bio-containers">
+                {/* img src="https://i.imgur.com/rctmEtP.jpg" className="brenna-pics lightning"/> */}
+                <img src="https://i.imgur.com/uNuglN7.jpg" alt="Brenna in her Vegan AF shirt with some ice cream" className="brenna-pics rounded bio-pic"/>
 
-              <p>I am a short, blonde vegan who lives for ice cream 🍦 and Lightning McQueen ⚡</p>
+              </div>
 
-              <p>Welcome to my portfolio ~</p>
+              <div className="bio-containers">
+                <p>Hi! I'm Brenna :)</p>
 
-              <p>Many emojis, gifs, and Cars references ahead - you've been warned 🤓</p>
+                <p>I am a short, blonde vegan who lives for ice cream 🍦 and Lightning McQueen ⚡</p>
 
-              <img src="https://24.media.tumblr.com/tumblr_lqefsb5fWu1qm6oc3o1_500.gif"></img>
+                <p>Welcome to my portfolio ~</p>
 
-              <p>Enjoy!</p>
+                <p>Many emojis, gifs, and Cars references ahead - you've been warned 🤓</p>
 
-              {/* <p>When I’m not rewatching the Cars movie for the umpteenth time, I am a Software Engineer who strives to bring creativity into anything and everything I do.</p>
+                <img src="https://24.media.tumblr.com/tumblr_lqefsb5fWu1qm6oc3o1_500.gif" alt="I wanted to give the folks a little sizzle Cars gif" className="cars-gifs"/>
 
-              <p>I started out in Mechanical Engineering with the intent to design roller coasters 🎢, but my motion sickness had other plans. Ultimately, I made the switch to Software Engineering to continue to help fuel my passions for innovative design, figuring out how things work and finding efficient solutions for everyday problems.</p> */}
+                <p>Enjoy!</p>
+              </div>
+
             </div>
           </Route>
 
