@@ -5,6 +5,7 @@ class Footer extends Component {
     return(
       <footer className="footer">
 
+        {/* <a href='https://instagram.com/bwennuh' className="footer-button" onClick={() => window.open("https://instagram.com/bwennuh")}>Instagram</a> */}
         <a href='https://instagram.com/bwennuh' className="footer-button">Instagram</a>
         {/* <button className="footer-button">Instagram</button> */}
 

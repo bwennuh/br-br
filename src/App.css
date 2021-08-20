@@ -33,8 +33,13 @@ body {
   font-size: 36pt;
 }
 
+.br2 {
+  font-weight: bolder;
+}
+
 .br-br {
   text-align: center;
+  font-weight: lighter;
 }
 
 .bio, .mckinley {
@@ -59,6 +64,10 @@ body {
   padding: 5px 10px;
   width: auto;
   height: 30px;
+}
+
+.footer-button {
+  padding: 10px;
 }
 
 .navbar-button {
@@ -136,6 +145,7 @@ body {
   display: flex;
   flex-flow: column wrap;
   align-content: center;
+  margin: 0px 25px;
 }
 
 .bio-pic {
@@ -151,4 +161,14 @@ body {
   flex-flow: row wrap;
   align-items: flex-start;
   justify-content: center;
+}
+
+.project-logos {
+  width: 300px;
+}
+
+.project-pics {
+  width: 1000px;
+  height: auto;
+  border: 5px black solid;
 }
