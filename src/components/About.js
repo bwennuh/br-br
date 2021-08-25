@@ -14,14 +14,14 @@ class About extends Component {
             <div className="choose-a-side-prof">
               <NavLink exact to='/about/professional' className="about-button" activeClassName="active">
                 Professional Side
-              </NavLink><br/><br/>
+              </NavLink><br/>
               <img src="https://i.imgur.com/Phlkn58.jpg" alt="Brenna smirking and standing with her hands on her hips, in her wedding dress, with her bridesmaids standing behind her" className="brenna-pics rounded-reverse"/><br/>
             </div>
 
             <div className="choose-a-side-fun">
               <NavLink exact to='/about/fun' className="about-button" activeClassName="active">
                 Fun Side
-              </NavLink><br/><br/>
+              </NavLink><br/>
               <img src="https://i.imgur.com/hM8mLgB.jpg" alt="Brenna in her wedding dress, with her head thrown back in laughter" className="brenna-pics rounded"/>
             </div>
           </div>
@@ -68,8 +68,8 @@ class About extends Component {
 
             <p>Now the goal is to find a new ✨ software engineering ✨ job ~</p>
 
-            <NavLink exact to='/about/fun' className="about-button" activeClassName="active">
-              Peep the fun side :)
+            <NavLink exact to='/about/fun' className="about-button peep" activeClassName="active">
+              Peep the fun side 🥳
             </NavLink><br/>
 
           </Route>
@@ -107,8 +107,8 @@ class About extends Component {
 
             <p>Rergardless of system, find me at <b>@bwennuh</b> :)</p>
 
-            <NavLink exact to='/about/professional' className="about-button" activeClassName="active">
-              Peep the profesh side
+            <NavLink exact to='/about/professional' className="about-button peep" activeClassName="active">
+              Peep the profesh side 🤓
             </NavLink>
           </Route>
 

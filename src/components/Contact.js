@@ -8,7 +8,19 @@ class Contact extends Component {
       <div className="contact">
         <h2 aria-label="Contact details">contact {`<details>`}</h2>
 
-        <p>Contact info stuff goes ~ here ~</p>
+        <p>Let's be friends / co-workers / [insert your own label here ;)]!</p>
+
+        <p>Choose your poison below ~</p>
+
+        {/* <form id='contact-form'>
+          <input type='text' name='user_name' placeholder='Name' />
+          <br/>
+          <input type='email' name='user_email' placeholder='Email' />
+          <br/>
+          <textarea name='message' placeholder='Message'/>
+          <br/>
+          <input type='submit' value='Send' />
+        </form> */}
 
       </div>
     )
