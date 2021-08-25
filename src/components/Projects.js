@@ -16,7 +16,6 @@ class Projects extends Component {
 
           <div className="project-info">
             <h3>Camooflage</h3>
-            {/* <img src="https://i.imgur.com/0s5Q1Ie.png" alt="Moo - a cute, pudgy cartoon cow mascot and logo" className="project-logos"/> */}
 
             <p>A non-dairy replacement app for those with allergies, vegan lifestyles, or just want to know all about non-dairy options. Think Pinterest, but for vegan milks, cheeses, and more!</p>
 
