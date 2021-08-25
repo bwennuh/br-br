@@ -111,27 +111,42 @@ body {
 }
 
 .mckinley-pics {
+  width: 400px;
   margin: 25px;
   border: black 15px solid;
   border-radius: 50px;
 }
 
-#president-mckinley {
-  height: 500px;
+#president-mckinley, #dirt-mckinley {
+  height: 400px;
+}
+
+.pawprint-clipart {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+  /* B-ish shape */
+.b-shape {
+  border: 0px;
+  border-radius: 0px 175px 175px 0px;
+  clip-path: polygon(0 0, 100% 0, 100% 38%, 85% 45%, 100% 52%, 100% 100%, 0 100%);
 }
 
 .lightning {
-  /* B shape */
-  /* border: 0px;
-  border-radius: 0px 175px 175px 0px;
-  clip-path: polygon(0 0, 100% 0, 100% 38%, 85% 45%, 100% 52%, 100% 100%, 0 100%); */
-
-  /* Lightning bolt */
   clip-path: polygon(20% 8%,92% 8%,69% 35%,98% 35%,0% 94%,23% 60%,0% 60%);
+}
+
+.lightning-tall {
+  clip-path: polygon(23% 0%,92% 0%,69% 35%,98% 35%,0% 94%,23% 60%,0% 60%);
 }
 
 .rounded {
   border-radius: 175px 0px 175px 0px;
+}
+
+.rounded-reverse {
+  border-radius: 0px 175px 0px 175px;
 }
 
 .bio {
@@ -153,14 +168,19 @@ body {
   margin-top: 30px;
 }
 
-.mckinley-pics-container {
+.mckinley-pics-container, .choose-a-side-container {
   margin: 0px auto;
-  width: 75vw;
+  width: 100vw;
   height: auto;
   display: flex;
-  flex-flow: row wrap;
+  flex-flow: row nowrap;
   align-items: flex-start;
   justify-content: center;
+}
+
+.mckinley-pics-container {
+  width: 85vw;
+  flex-flow: row wrap;
 }
 
 .project-logos {
@@ -171,4 +191,23 @@ body {
   width: 1000px;
   height: auto;
   border: 5px black solid;
+}
+
+.choose-a-side-prof, .choose-a-side-fun {
+  margin: 5px 100px;
+  display: flex;
+  flex-flow: column wrap;
+  align-items: flex-start;
+}
+
+.choose-a-side-fun {
+  align-items: flex-end;
+}
+
+.about-button {
+  width: 200px;
+  display: flex;
+  flex-flow: row nowrap;
+  align-content: center;
+  justify-content: center;
 }

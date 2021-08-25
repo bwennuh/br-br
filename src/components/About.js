@@ -7,17 +7,26 @@ class About extends Component {
     return(
       <div className="about">
 
-        <Route path='/about'>
+        <Route exact path='/about'>
           <h2 aria-label="Choose a side (button)">choose {`<a>`} side ~</h2>
+
+          <div className="choose-a-side-container">
+            <div className="choose-a-side-prof">
+              <NavLink exact to='/about/professional' className="about-button" activeClassName="active">
+                Professional Side
+              </NavLink><br/><br/>
+              <img src="https://i.imgur.com/Phlkn58.jpg" alt="Brenna smirking and standing with her hands on her hips, in her wedding dress, with her bridesmaids standing behind her" className="brenna-pics rounded-reverse"/><br/>
+            </div>
+
+            <div className="choose-a-side-fun">
+              <NavLink exact to='/about/fun' className="about-button" activeClassName="active">
+                Fun Side
+              </NavLink><br/><br/>
+              <img src="https://i.imgur.com/hM8mLgB.jpg" alt="Brenna in her wedding dress, with her head thrown back in laughter" className="brenna-pics rounded"/>
+            </div>
+          </div>
+
         </Route>
-
-        <NavLink exact to='/about/professional' className="about-button" activeClassName="active">
-          Professional Side
-        </NavLink>
-
-        <NavLink exact to='/about/fun' className="about-button" activeClassName="active">
-          Fun Side
-        </NavLink>
 
           <Route exact path='/about/professional'>
             <h2 aria-label="About me">{`<a>`}bout me</h2>
@@ -59,14 +68,22 @@ class About extends Component {
 
             <p>Now the goal is to find a new ✨ software engineering ✨ job ~</p>
 
+            <NavLink exact to='/about/fun' className="about-button" activeClassName="active">
+              Peep the fun side :)
+            </NavLink><br/>
+
           </Route>
 
           <Route exact path='/about/fun'>
             <h2 aria-label="About me">{`<a>`}bout me</h2>
 
+            <img src="https://i.imgur.com/Iz21IPg.jpg" alt="Brenna in a Lightning McQueen print dress, Lightning McQueen print Mickey Mouse ears, and standing next to Lightning McQueen himself at Disney's California Adventure" className="brenna-pics rounded"/>
+
             <p>Like I mentioned before, I am a short, blonde vegan who lives for ice cream 🍦 and Lightning McQueen ⚡</p>
 
             <p>I am big into running and spinning. If you need a running buddy, HMU (but we'll go at my pace because I am ✨ slow ✨). My goal is to usually end a run at a coffee shop because I <em>will run for iced coffee plzkthx</em>. Iced vanilla oat milk lattes are my favorite 🥤</p>
+
+            <img src="https://i.imgur.com/t5zb3VZ.jpg" alt="Brenna smiling while running with a tiara on her head and wearing a red tank top and a yellow tutu" className="brenna-pics lightning-tall"/>
 
             <p>Will also run for wine though 🍷 Preferably sauv blanc or sparkling rosé ~</p>
 
@@ -78,7 +95,7 @@ class About extends Component {
 
             <p>Meet Moo!</p>
 
-            <p>{`<< Moo pic goes here >>`}</p>
+            <img src="https://i.imgur.com/0s5Q1Ie.png" alt="Moo - a cute, pudgy cartoon cow mascot and logo" className="project-logos"/>
 
             <p>🎬 </p>
 
@@ -90,7 +107,9 @@ class About extends Component {
 
             <p>Rergardless of system, find me at <b>@bwennuh</b> :)</p>
 
-
+            <NavLink exact to='/about/professional' className="about-button" activeClassName="active">
+              Peep the profesh side
+            </NavLink>
           </Route>
 
       </div>

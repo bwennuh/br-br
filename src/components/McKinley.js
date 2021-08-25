@@ -21,7 +21,7 @@ class McKinley extends Component {
 
           <img src="https://i.imgur.com/xVOUQzd.png" alt="President McKinley! Aka McKinley the American Staffordshire Terrier sitting down on the sidewalk in an American flag print costume and hat for Halloween" className="mckinley-pics" id="president-mckinley"/>
 
-          <img src="https://i.imgur.com/Lhg7dfr.jpg" alt="McKinley the American Staffordshire Terrier rolling around in some dirt out in the backyard while Brenna's husband, Greg, smiles down at her" className="mckinley-pics" />
+          <img src="https://i.imgur.com/Lhg7dfr.jpg" alt="McKinley the American Staffordshire Terrier rolling around in some dirt out in the backyard while Brenna's husband, Greg, smiles down at her" className="mckinley-pics" id="dirt-mckinley"/>
           
           <img src="https://i.imgur.com/8cvdfuP.jpg" alt="McKinley the American Staffordshire Terrier all sprawled out laying on a giant gray LoveSac bean bag chair" className="mckinley-pics" />
 
