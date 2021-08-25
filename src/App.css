@@ -1,5 +1,5 @@
 .app {
-  margin: 25px;
+  margin: 25px 100px;
 }
 
 body {
@@ -170,7 +170,7 @@ body {
 
 .mckinley-pics-container, .choose-a-side-container {
   margin: 0px auto;
-  width: 100vw;
+  width: 90vw;
   height: auto;
   display: flex;
   flex-flow: row nowrap;
@@ -210,4 +210,8 @@ body {
   flex-flow: row nowrap;
   align-content: center;
   justify-content: center;
+}
+
+.peep {
+  width: 250px;
 }
