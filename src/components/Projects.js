@@ -19,6 +19,8 @@ class Projects extends Component {
 
             <p>A non-dairy replacement app for those with allergies, vegan lifestyles, or just want to know all about non-dairy options. Think Pinterest, but for vegan milks, cheeses, and more!</p>
 
+            <p>Check out the working (but still work-in-progress) demo <a href="https://camooflage.netlify.app/">here</a>!</p>
+
             <img src="https://i.imgur.com/3bHRs0k.png" alt="Login screen for the Camooflage non-dairy replacement app" className="project-pics"/>
 
             <p>The Camooflage GitHub page can be found <a href="https://github.com/bwennuh/camooflage-frontend">here</a>!</p>
